@@ -16,6 +16,9 @@ span{
     cursor: pointer;
     border: 0;
     width: 175px;
+    height: 55px;
+    display: flex;
+    align-items: center;
 }
 input{
     border-radius: 8px;
@@ -27,6 +30,7 @@ input{
     cursor: pointer;
     border: 0;
     width: 130px;
+    height: 15px;
 }
 
 /* header section styles */
@@ -121,6 +125,9 @@ nav li a {
     .banner{
        background-size: cover;
        background-position: center;
+    }
+    .banner-content{
+
     }
     .banner-title{
         font-size: 20px;
