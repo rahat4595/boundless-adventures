@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;800&display=swap');
+/* shared styles */
+body{
+    font-family: 'Mulish', sans-serif;
+}
+span{
+    color: #FF5400;
+}
+.btn-primary {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF5400;
+    padding: 20px 25px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+    width: 175px;
+}
+input{
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #fff;
+    padding: 20px 25px;
+    color: gray;
+    cursor: pointer;
+    border: 0;
+    width: 130px;
+}
+
+/* header section styles */
+
+/* nav styles */
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #424242;
+}
+.nav-name{
+    display: flex;
+    gap: 20px;
+}
+.nav-title{
+    font-size: 36px;
+}
+.nav-img{
+    margin-top: 35px;
+}
+/* Banner section styles*/
+.banner{
+    max-width: 1200px;
+    height: 500px;
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0)), url('../Images/Group 13 (1) (1).png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.banner-content{
+    margin-bottom: 25px;
+}
+.banner-input{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: rgba(255, 255, 255, 30%);
+    width: 840px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 800;
+    color: #fff;
+}
+.banner-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/*  /* Responsive media query */
+ /* mobile devices */ 
+ @media screen and (max-width:600px) {
+    nav,
+    .banner-input{
+        flex-direction: column;
+    }
+    .banner-input{
+        place-items: center;
+    }
+    .banner{
+       background-size: cover;
+       background-position: center;
+    }
+    .banner-title{
+        font-size: 20px;
+    }
+    .banner-des{
+        font-size: 14px;
+        padding: 0 200px;
+    }
+ }
