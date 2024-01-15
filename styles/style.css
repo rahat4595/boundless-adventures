@@ -3,23 +3,29 @@
 body{
     font-family: 'Mulish', sans-serif;
 }
+.section-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    line-height: 30px;
+}
 span{
     color: #FF5400;
 }
-.btn-primary {
+.btn-primary{
     border-radius: 8px;
-    color: #FFF;
-    font-size: 1.25rem;
     background: #FF5400;
-    padding: 20px 25px;
-    color: #FFF;
-    cursor: pointer;
     border: 0;
-    width: 175px;
-    height: 55px;
-    display: flex;
-    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 15px 35px;
+    color: #fff;
 }
+
 input{
     border-radius: 8px;
     color: #FFF;
@@ -102,7 +108,28 @@ nav li a {
     font-weight: 400;
     color: #fff;
 }
-
+.btn-banner {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF5400;
+    padding: 20px 25px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+    width: 175px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+/* Popular style */
+.popular-section{
+    max-width: 1200px;
+    height: 600;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 90px;
+}
 
 
 
@@ -115,25 +142,34 @@ nav li a {
 /*  /* Responsive media query */
  /* mobile devices */ 
  @media screen and (max-width:600px) {
+    body{
+        padding: 20px;
+    }
     nav,
-    .banner-input{
+    .banner-input,
+    .popular-section{
         flex-direction: column;
     }
     .banner-input{
         place-items: center;
+        width: 50%;
     }
     .banner{
        background-size: cover;
        background-position: center;
-    }
-    .banner-content{
-
+       place-items: center;
     }
     .banner-title{
         font-size: 20px;
     }
     .banner-des{
         font-size: 14px;
-        padding: 0 200px;
+    }
+    .popular-section{
+        margin-top: 0;
+    }
+    .popular-img{
+        width: 100%;
+        margin-top: 20px;
     }
  }
