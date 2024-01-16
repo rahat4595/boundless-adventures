@@ -107,6 +107,8 @@ nav li a {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
+    width: 50%;
+    margin: 0 auto;
 }
 .btn-banner {
     border-radius: 8px;
@@ -130,7 +132,100 @@ nav li a {
     display: flex;
     margin-top: 90px;
 }
-
+/* Destination styles */
+.destination-section{
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 90px;
+}
+.destination-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    line-height: 25px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.first-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.second-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.third-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.rec-img1{
+    background: url('../Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 575px;
+    height: 300px;
+}
+.rec-img2{
+    background: url('../Images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 575px;
+    height: 300px;
+}
+.rec-img3{
+    background: url('../Images/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 374px;
+    height: 300px;
+}
+.rec-img4{
+    background: url('../Images/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 474px;
+    height: 300px;
+}
+.rec-img5{
+    background: url('../Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 274px;
+    height: 300px;
+}
+.rec-img6{
+    background: url('../Images/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 473px;
+    height: 300px;
+}
+.rec-img7{
+    background: url('../Images/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 673px;
+    height: 300px;
+}
 
 
 
@@ -145,25 +240,38 @@ nav li a {
     body{
         padding: 20px;
     }
+    .section-title{
+        font-size: 22px;
+    }
     nav,
     .banner-input,
-    .popular-section{
+    .popular-section,
+    .first-img,
+    .second-img,
+    .third-img{
         flex-direction: column;
     }
     .banner-input{
         place-items: center;
-        width: 50%;
+        width: 80%;
     }
     .banner{
        background-size: cover;
        background-position: center;
        place-items: center;
+       padding:40px 0;
     }
     .banner-title{
         font-size: 20px;
     }
     .banner-des{
         font-size: 14px;
+    }
+    input{
+        width: 75%;
+    }
+    .btn-banner{
+        width: 85%;
     }
     .popular-section{
         margin-top: 0;
@@ -172,4 +280,65 @@ nav li a {
         width: 100%;
         margin-top: 20px;
     }
+    .destination-section{
+        margin-top: 0;
+    }
+    .destination-des{
+        font-size: 14px;
+
+    }
+    .rec-img1{
+        width: 100%;
+        height: 175px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .rec-img2{
+        width: 100%;
+        height: 175px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+    }
+    .rec-img3{
+        width: 100%;
+        height: 175px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .rec-img4{
+        width: 100%;
+        height: 175px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .rec-img5{
+        width: 100%;
+        height: 175px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+    }
+    .rec-img6{
+        width: 100%;
+        height: 175px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .rec-img7{
+        width: 100%;
+        height: 175px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+    }
+
  }
