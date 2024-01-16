@@ -226,6 +226,69 @@ nav li a {
     width: 673px;
     height: 300px;
 }
+/* Why Choose Us styles */
+.choose-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+
+.choose-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    line-height: 25px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.choose-content{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.choose-content div {
+    box-sizing: border-box;
+}
+.choose-us-content{
+    text-align: center;
+}
+.description{
+    padding-right: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    line-height: 30px;
+}
+.choose-content div:nth-child(1){
+    width: 573px;
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #FBB56361;
+
+}
+.choose-content div:nth-child(2){
+    width: 573px;
+    background-color: rgba(41, 206, 246, 5%);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #29CEF640;
+}
+.choose-last{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.choose-first{
+    width: 573px;
+    background-color: rgba(233, 68, 68, 0.07);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #E944442B;
+}
 
 
 
@@ -251,6 +314,7 @@ nav li a {
     .third-img{
         flex-direction: column;
     }
+    
     .banner-input{
         place-items: center;
         width: 80%;
@@ -340,5 +404,14 @@ nav li a {
         background-position: center;
         border-radius: 15px;
     }
+    .choose-content div{
+        width: 100%;
+    }
+    .choose-des{
+        line-height: 20px;
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+
 
  }
