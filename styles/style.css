@@ -28,10 +28,21 @@ span{
     cursor: pointer;
     margin-top: 20px;
 }
+.input{
+
+        border-radius: 8px;
+        font-size: 1.25rem;
+        background: #fff;
+        padding: 15px 25px;
+        color: gray;
+        cursor: pointer;
+        border: 0;
+        width: 175px;
+    }
+    
 
 input{
     border-radius: 8px;
-    color: #FFF;
     font-size: 1.25rem;
     background: #fff;
     padding: 20px 25px;
@@ -86,7 +97,7 @@ nav li a {
 .banner{
     max-width: 1200px;
     height: 500px;
-    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0)), url('../Images/Group 13 (1) (1).png');
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group 13 (1) (1).png');
     background-repeat: no-repeat;
     margin: 0 auto;
     display: grid;
@@ -117,7 +128,7 @@ nav li a {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
 .btn-banner {
@@ -142,6 +153,9 @@ nav li a {
     display: flex;
     margin-top: 90px;
     padding: 0 20px;
+}
+.popular-content{
+    padding: 20px;
 }
 /* Destination styles */
 .destination-section{
@@ -346,6 +360,77 @@ nav li a {
     margin-top: 20px;
     line-height: 25px;
 }
+/* Meet Our team styles */
+.team-section
+{
+	
+	text-align: center;
+}
+
+.inner-width{
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px;
+	color: #333;
+	overflow: hidden;
+}
+
+.team-section h1{
+	font-size: 20px;
+	display: inline-block;
+	border-bottom: 4px solid;
+	padding-bottom: 10px;
+}
+
+.pe{
+	float: left;
+	width: 33.3%;
+	overflow: hidden;
+	padding: 40px 0;
+}
+
+.pe:hover{
+	background: #dfe4ea;
+}
+
+.pe img{
+	width:250px;
+	height: 250px;
+	border-radius: 50%;
+    object-fit: cover;
+}
+
+.p-name{
+	margin: 15px;
+    font-size: 20px;
+    font-weight: 700;
+	
+}
+
+.p-des{
+	font-size: 16px;
+}
+
+.p-sm{
+	margin-top: 6px;
+}
+
+.p-sm a{
+    font-size: 20px;
+	margin: 0 4px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	
+}
+
+
+
+.p-sm a i{
+	color: #333;
+	line-height: 30px;
+}
+
 /* Newsletter styles */
 .newsletter-section{
     max-width: 1200px;
@@ -414,6 +499,8 @@ nav li a {
 .letter-title{
     font-size: 24px;
     font-weight: 400;
+    position: relative;
+    top: 20%;
 
 }
 /* footer section */
@@ -439,7 +526,8 @@ footer{
     font-size: 16px;
     font-weight: 400;
     color: gray;
-    padding: 0 23%;
+    padding: 0 28%;
+    line-height: 26px;
 }
 .footer-icon{
     letter-spacing: 10px;
@@ -485,14 +573,15 @@ footer{
     .toogle-btn{
         display: block;
         margin-top: 5px;
+        font-size: 20px;
     }
     .nav-img{
-        margin-top: 12px;
+        margin-top: 15px;
         width: 32px;
         height: 30px;
     }
     .nav-title{
-        font-size: 16px;
+        font-size: 18px;
         margin-left: -10px;
     }
     
@@ -514,11 +603,13 @@ footer{
         font-size: 14px;
         width: 95%;
     }
-    input{
-        width: 75%;
+    .input{
+        width: 90%;
     }
     .btn-banner{
-        width: 85%;
+        width: 90%;
+        justify-content: center;
+
     }
     .popular-section{
         margin-top: 0;
@@ -589,6 +680,9 @@ footer{
         background-position: center;
         border-radius: 15px;
     }
+    .choose-section{
+        margin-top: 0;
+    }
     .choose-content div{
         width: 100%;
     }
@@ -617,6 +711,9 @@ footer{
     .place-section{
         margin-top: 20px;
     }
+    .pe{
+		width: 100%;
+	}
     
     .letter-img{
         width: 100%;
@@ -624,6 +721,9 @@ footer{
         background-position: center;
         border-radius: 10px;
         margin-top: 20px;
+    }
+    .newsletter-section{
+        margin-top: -10px;
     }
     .newsletter{
         width: 90%;
@@ -670,6 +770,8 @@ footer{
     }
     .footer-des{
         font-size: 14px;
+        padding: 0 10%;
+        line-height: 24px;
     }
 
 
